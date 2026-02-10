@@ -84,4 +84,5 @@ if ("false") {
     console.log("This is true");//this is true because non-emty string is truthy value//
 } else {
     console.log("this is false");
+    
 }
