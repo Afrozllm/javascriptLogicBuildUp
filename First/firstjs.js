@@ -112,12 +112,12 @@
 // logical  NOT!  operators ke bare me avi padhna hain?
 // ! operators ka ruls hai ke agar value true rahega to false vana dega aur agr False rahega to true baana dega//
 
-console.log(!false);//true dega outcome//
-console.log(!true)//false dega outcome
-console.log(!false);//true
-console.log(!true);//false
-console.log(!!true);//true
-console.log(!!false)//false
+// console.log(!false);//true dega outcome//
+// console.log(!true)//false dega outcome
+// console.log(!false);//true
+// console.log(!true);//false
+// console.log(!!true);//true
+// console.log(!!false)//false
 
 // let login=false;
 
