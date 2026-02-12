@@ -115,8 +115,105 @@
 // console.log(user1);
 // // console.log(user);
 
-let colors=["Red","Green","Blue"];
+// let colors=["Red","Green","Blue"];
 
-for(let i =0; i<=10; i++){
-    console.log(i);
-}
+// for(let i =0; i<=10; i++){
+//     console.log(i);
+// }
+// 1.Write a function that checks if a number is between 10 and 50 (inclusive) using logical operators.
+// function CheckNum(Num){
+//     if(Num >10 && Num<=50){
+//         console.log("You are passeed because you are correct choose the number! Congratulation")
+//     }else{
+//         console.log("Sorry! You are not choose the correct Number! ")
+        
+//     }
+    
+//     return Num;
+// }
+// let UserNum=CheckNum(2);
+// console.log(UserNum)
+// What will true && false || true evaluate to, and why does operator precedence matter here
+
+// console.log(true && false);//false result dega becaiuse  ye first falsey value ko return karta hai agar first left side me first false value nahi mile tab ye next wale value ko retune karta hain //
+
+;// true && false || true
+// (true && false) || true
+// false || true
+// true
+
+// false || true && false
+// false || (true && false)
+// false || false
+// false
+
+// (false || true) && false
+// true && false
+// false
+
+// true || false && false
+// console.log(true && true);//true q ke ye falsy value ko first return karta hain but yaha pe dono he true hain islye true he retun karta hai /
+//  console.log(false || true)//ye hame trye dega q ke ye first truthy vakue ko dekhta hai ke left -side me truthy value nahi hoga to joo right side me true value rahega to wahi return kar dega aur agar left side true mil jata hai to first return kar dega true
+// console.log(true || false)//true dega 
+// console.log(false) // ye false dega but agar mai isko true karna chata hu to ham kar sakte hain kaise ! laga ke 
+// console.log(!false);//true dega//
+// console.log(!true);//false dega 
+// console.log(true);agar ham true he rakhna chate hai too true  hi rahega but agar ham !! ye dono laga de to ye first !! true ko true he rahne dega
+// 
+// console.log(!!true); true dega
+// Simple Definition:
+// ?? sirf null aur undefined ko check karta hai. Agar left side null ya undefined hai tabhi right side return karta ha//
+//// your code goes here
+// let a=undefined
+// let b="world";
+
+// console.log(b ?? a);//
+
+// let b=undefined
+// / let score=0;
+
+// console.log(0 || "score")//ye first truthy value dekhta hai too 0 hai false value
+// console.log( score ?? "No scores")//outcome dega No score q ke jaab ham ?? ye used karte hai too wo isko null samajta hai aur ye null v hai q ke isme 0 hai islye ye next right wala value return karta hai//
+// //aur ek reason hai jaab v agar null aur undefine rahega value aur wo v left-side me taavi right-side wala return karega other waise nahi karega 
+//Example ///
+// let a=null;
+// console.log(a ?? "Hellow");//Hellow ayega ;
+
+// let a = undefined;
+
+// console.log(a ?? "false");
+
+// console.log("0" ?? undefined);
+// console.log("afroz" ?? null)
+//reallife example//
+// Example  — Real Life Use Case
+// javascriptfunction greetUser(name) {
+//   let displayName = name ?? "Guest";
+//   console.log("Hello, " + displayName);
+// }
+
+// greetUser("Rahul");     // Hello, Rahul
+// greetUser(null);        // Hello, Guest
+// greetUser(undefined);   // Hello, Guest
+// greetUser("")
+// What's the difference between || and ?? (nullish coalescing) when dealing with falsy values like 0 or empty string ""?
+
+// console.log(0 || undefined);// yaha pe undefined return karne ka reason hai aur reason hai ke q || NOR hai ye first truthy value ko return karta hai  but 0 ek falsey value hai islye || NOR operators undefine return karta hai q ke yaha pe truthy value nahi dono falsy value hai .
+// // console.log("" || null); yaha v same thing
+
+// console.log(0 ?? false);
+// console.log(null ?? "afroz ");
+// Predict the output: console.log(0 && "hello") and explain why JavaScript returns that specific value.?
+// console.log(0 && "hellow") //0 ane ka reason hai ke ye first falsy value ko dekhta hai apne andar aur 0 ek falsy value hain
+// How can you use the ! operator twice (!!) to convert any value to a boolean, and when might this be useful?
+// console.log(true) // ye muje output me dega true and q ke avi mai ! Not-operators ye use nahi kia hu But Agar mai used karunga taab jo hai true wala value False me convert ho jaiga
+// console.log(!true);//false dega 
+// console.log(!!true);//ye true dega q ke  signle !ye denege too true ka false me dega aur jaab fir aur ! ek laga denge taav fir se true me convert kar dega
+
+// Short-Circuit Evaluation Kya Hota Hai?
+// JavaScript left se right evaluate karta hai, aur jैसे hi usse truthy value mil jaaye, woh ruk jaata hai — baaki expressions ko dekha bhi nahi jaata. Isi ko Short-Circuit kehte//
+// null || undefined || "default" || "second"
+// first || NOR operator truthy value ko return karta hai too ab yaha pe null hai .Too hame pata hai ke null ek falsy value aur undefined v false value hain to fir next dekhta hai ke "default hai taav isko mil jata hai truthy value so return kar deta hai But nahi melega too next undefined hai usi ko return kardega ye"
+// console.log(null || undefined  || "Default" || "Second");//Default dega//
+// console.log(null || undefined)//undefine dega
+// console.log(null ?? undefined ?? "Default" ?? "Second")//Default dega q ke ?? sirf null aur undefine ko check karta hai aur dono hi false value hain to fir next dekhta hai ke Default hai to isko return kar dega//
