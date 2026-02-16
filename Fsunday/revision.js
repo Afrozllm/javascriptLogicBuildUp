@@ -96,3 +96,122 @@
 // }else{
 //     console.log("iphone17-Pro")
 // }
+// ........./|| OR operators..................................
+// onsole.log(null || 0);//0 
+// console.log(null || undefined);//undefined/
+// console.log(1 || undefined);//1;;
+// console.log({} || undefined);//undefined;;true {}
+// console.log([] || 1);//[] ye ayega
+// console.log(undefined || "0");;// 0 ayega//
+// console.log("abcd" || 1.2);//true abcd;;
+// console.log("" || 1);//1
+// console.log(false || true);//true ayega
+// console.log(true || false);;//true ayega
+// console.log("" || undefined);//undefined;
+// console.log({}|| []);;//{}
+// console.log([]||{})
+// console.log({}|| null);//{}
+// console.log("Hello, World!");
+// let letter='A';
+// let word="abcd";
+// yaha small sa code me dono truthy value hai agar dekhne se too and so || first truthy value dekhte he return kardeta hain//islye yaha pe output milega yes i am true
+if(letter || word){
+    console.log("yes i am true")
+}else{
+    console.log("yes i am false");
+}
+// Online Javascript Editor for free
+// Write, Edit and Run your Javascript code using JS Online Compiler
+// 
+
+// let str="abc";
+// let nm=Number(str);//NAN//false
+// console.log(nm)//number
+//false// aa yaah
+
+// if(nm){
+//     console.log("yes i am online")
+// }else{
+//     console.log("yes i am offline")// yes i am offline
+// }
+//.........inNaN....... 
+//True dega
+// let str="abc";
+// let nm=Number(str);//NAN//false
+// console.log(nm)//number
+
+// if(nm || isNaN(str)){
+//     console.log("yes i am online")//yes i am online//
+// }else{
+//     console.log("yes i am offline")//
+// }
+
+// let num=100;
+// console.log(typeof(num))
+// let str=String(num);
+// console.log(str);
+
+// console.log(typeof(str))
+
+// if(str || undefined){
+//     console.log("Yes bhai you are correct!")// ye output ayega
+
+// }else{
+//     console.log("Bhai app wrong ho!");
+// }
+//......................////////////////////////////.................
+
+// let str="hellow";
+// let abc=parseFloat(str);
+// // // console.log(abc)//NaN dega but ye false hai avi aur jaab mai abc and isNaN(str) ko || ishe compare karta hu taab v ye first truthy value dekhega Aagar mila to true return karega matlab if() wala code output ayega But agar inko nahi mila truthy taab ye next else wala part output dega...
+
+// if(abc || isNaN(str)){
+//     console.log("Flower ayega true hone se")//ye ayega
+// }else{
+//     console.log("sunflower ayega aga false hoga tooo......");
+// }
+
+// let num=100;
+// console.log(typeof(num))
+// let str=String(num);
+// console.log(str);
+
+// console.log(typeof(str))
+
+// if(str || parseFloat(str)){
+//     console.log("Yes bhai you are correct!")// ye output ayega
+
+// }else{
+//     console.log("Bhai app wrong ho!");
+// }
+
+///................../////////////////////...................
+// let str="hellow";
+// let abc=parseFloat(str);
+// // // console.log(abc)//NaN dega but ye false hai avi aur jaab mai abc and isNaN(str) ko || ishe compare karta hu taab v ye first truthy value dekhega Aagar mila to true return karega matlab if() wala code output ayega But agar inko nahi mila truthy taab ye next else wala part output dega...
+
+// // else wala part output islye aye q ke ! lagne se true ko false aur false ko true baana deta hai 
+// if(abc || !isNaN(str)){
+//     console.log("Flower ayega true hone se")
+// }else{
+//     console.log("sunflower ayega aga false hoga tooo......");//ye ayega 
+
+// }
+
+// ! Not operators.. inko .........................../////////////////////////,,,,,,,,,,,,,,,,,,,,,,,,,,
+//! not operators ka matlab hota hai javascripts me ke agar true hai too false kardega aur agr false ko true kardrta hai //
+
+// let str="afroz";//string hai// this is truthy value 
+// // if(str){
+// //     console.log("yes bro tell me")
+// // }else{
+// //     console.log("yes You can do it bro")
+
+// // }
+
+// if(!str){
+//     console.log("yes bro tell me")
+//  }else{
+//     console.log("yes You can do it bro")//////////ye ayega output//
+
+// }
