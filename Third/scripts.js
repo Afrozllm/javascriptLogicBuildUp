@@ -167,7 +167,46 @@
 // console.log(Math.ceil(2.1))
 
 
+// ................................Practices more perfect........................
+// let num=[1,2,3,4,5,6,7,8,9,10];
+// let num1=isNaN(num);
+// if(num1 % 2 === 0){
+//     console.log("This is Even number ", + num1);
+// }else{
+//     console.log("This is Odd number", + num1);
+// }
 
+
+// let rmdg= Math.floor(Math.random() * 10);
+// console.log(rmdg)
+
+// if(rmdg % 2 === 0){
+//     console.log("This is Even number!", + rmdg);
+
+// }else{
+//     console.log("This is Odd Number!", + rmdg);
+// }
+
+////////////////...............////////////////////////////
+// console.log(Math.floor(2.1));//2
+// console.log(Math.floor(10.78));//10
+// console.log(Math.floor(999.999));//999
+// console.log(Math.floor(1000.786776))//1000;
+// console.log(Math.floor(888.90000000));//888
+// ..............////////////////////////....................
+
+// // console.log(Math.round())//round figuar me result ata hai like 1.2 too 1 he ayega and 1.3 raha taav b 1 he ayega ..but agar 1.5 taab muje 2 milega 
+// console.log(Math.round(1.100));;//1
+// console.log(Math.round(2.5));;// 3 milega aur agar 2.9 v too tav v wahi milega 3;
+// console.log(Math.round);//3
+// console.log(Math.round(3.0))//3
+// console.log(Math.round(4.5));//5
+// // ......................///////////////////////////////...............................
+// //agar muje 1.1 ke next he 2 output chaiye too ham method used kar sakte hain Math.ceil();
+// console.log(Math.ceil(1.2));;//2 ayega 
+// ///..................///////////////////////................
+// //math.aqrt() ye even number ka adject squire root nikal ke dega/
+// console.log(Math.sqrt(625));//25
 
 
 
