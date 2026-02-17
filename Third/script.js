@@ -398,17 +398,28 @@
 
 
 
+// undefine kaab kaab ata hai?
+//jaab ham ek variable  declear karte hai but unko value nahi dete hai taab undefine deta hai jaise;;//
+//let name;
+// console.log(name);
+// let obj ={name:"afroz"};
+// //jaab mai object me aisha property access karte hai jo exixt nahi karta hai too bhi undefine dega//
+// console.log(obj.age);;//undefined//
 
 
+// function abc(){
 
 
+// }
+// console.log(abc())//undefined q ke mai kuch return he nahi kia hu functiopn abc() me//
 
+////null.....//
 
-
-
-
-
-
+//null ka matlab hota hai ke ham jaan bhooj ke khali value choor deta hai//
+// let name=null
+// let obj={
+//     name:"",
+// }
 
 
 
