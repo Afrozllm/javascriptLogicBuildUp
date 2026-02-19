@@ -44,11 +44,13 @@
 //exmple// simple
 //logic// hai ke jo v user ka name last b se end hota hai bas usi ko entry dena //
 
-let firstname="sauraB";
-if(firstname.includes("saurab") !== -1 &&  firstname.endsWith("b") ){
-    console.log("Yes This boys name is Saurab and the name endings with samll b");
+// let firstname="sauraB";
+// if(firstname.includes("saurab") !== -1 &&  firstname.endsWith("b") ){
+//     console.log("Yes This boys name is Saurab and the name endings with samll b");
 
-}else{
-    console.log("no you are not liste name here ! sorry are you not enter! this game");
+// }else{
+//     console.log("no you are not liste name here ! sorry are you not enter! this game");
 
-}
+// }
+// replace()// method jo ke inbuilt hai js ka too ham isko used karte hai jaab muje string me koi v word replace karna ho too ham isko used kar sakte hai //
+//real-example//

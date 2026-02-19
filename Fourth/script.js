@@ -248,7 +248,47 @@ console.log(typeof(str));
 //  console.log(str.indexOf(("India"));//32
 
 
+//replace() method//
+// let Name="mera name afroz hai"
+// let newname= Name.replace("hai" ,"alam")
+// console.log(newname);
+// console.log(Name);
 
+
+// let animals="cat cat Cats Dogs perrort, cat";
+// let newrps= animals.replace("cat","corocodial");
+// console.log(newrps);
+
+// //
+// let str = "dog dog dog";
+// // let newstr= str.replace("dog" ,"cat");
+// // console.log(newstr); yaha pe srif first he replace hoga//
+
+
+
+// // let str = "dog dog dog";
+// // //muje sara replace karna hai jo/
+// // let newstr= str.replaceAll("dog","cats");
+// // console.log(newstr);
+// falg /i agar case ignore karna hai to //
+// let str= "Hellow  Hellow  hellow Hellow";
+// console.log(str.replace(/hellow/i,"Hii Man"));
+// flage /g ka matalb hota suppose agar tumara name samll me repeated hai aur ishi me capital letter me v hai to agar mai flag /g ka used karta hu and replce karta hu small letter wala name//to finally samll letter ke same repeated name bol sakte ho ya case-sensative//
+
+// let firstname=" Afroz afroz afroz afroz afroz afroz Afroz";
+// let repname=firstname.replace(/afroz/g, "Rahi");
+// console.log(repname);
+
+// let capitalname="Afroz Alam Afroz Mizan Asif asif Asif Rahi rahi asif mizan Afroz Afroz Saurab saurab Afroz Afroz Mizan Mizan Afroz Afroz  mizan";
+// let remove=capitalname.replace(/Mizan/g," MIZAN RAHI");
+// console.log(remove);
+
+// let newp=capitalname.replace(/asif/i,"advocate");
+// console.log(newp);
+
+// 3thirddddddddddddddddddddd// waye//
+let newstr= capitalname.replace(/Afroz/gi,"ALAM");
+console.log(newstr);
 
 
 
