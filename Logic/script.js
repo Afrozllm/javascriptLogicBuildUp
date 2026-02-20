@@ -54,3 +54,55 @@
 // }
 // replace()// method jo ke inbuilt hai js ka too ham isko used karte hai jaab muje string me koi v word replace karna ho too ham isko used kar sakte hai //
 //real-example//
+//=== ye assignment operator checke karta hai dono data type and ==ye check karta hai equal hai ya nahi data type//
+
+// let token="memcoin";
+// let newtoken=token.replace("memcoin","bitcoin");
+
+// if(newtoken == "bitcoin"){
+//     console.log("yes this is bitcoin")
+// }else{
+//     console.log("no this is not bitcoin");
+// }
+
+// let num=100;
+// let num1="100";
+// if(Symbol(num)== Symbol(num1)){
+//     console.log("yes both are data are same ")
+// }else{
+//     console.log("no both are not same data type");//ye dega output q ke symbol dono ka laga lag hai//
+// }
+//Agar muje isme true dekhna hai mai Symbol.for() method me dono ko daal dunga//
+// let num=100;
+// let num1="100";
+// if(Symbol.for(num)== Symbol.for(num1)){
+//     console.log("yes both are data are same ")
+// }else{
+//     console.log("no both are not same data type");//ye dega output q ke symbol dono ka laga lag hai//
+// }
+//.............////////////.............
+//! i iska used kia //
+let num=100;
+let num1="100";
+if(Symbol.for(num) !== Symbol.for(num1)){
+    console.log("yes both are data are same ")
+}else{
+    console.log("no both are not same data type");//ye dega output q ke symbol dono ka laga lag hai//
+}
+
+///Symbol object ko unique bannata hai//
+
+let obj={};
+//symbol object ko unique bannata hai//
+let name= Symbol("name");
+let name1=Symbol("name");
+let age=Symbol("age");
+
+obj[name]="afoz";
+ obj[name1]="Alam";
+ obj[age]='32';
+
+console.log(obj[name]);
+console.log(obj[name1]);
+console.log(obj[age]);
+

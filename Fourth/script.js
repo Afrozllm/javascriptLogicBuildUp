@@ -286,9 +286,132 @@ console.log(typeof(str));
 // let newp=capitalname.replace(/asif/i,"advocate");
 // console.log(newp);
 
-// 3thirddddddddddddddddddddd// waye//
-let newstr= capitalname.replace(/Afroz/gi,"ALAM");
-console.log(newstr);
+// // 3thirddddddddddddddddddddd// waye//
+// let newstr= capitalname.replace(/Afroz/gi,"ALAM");
+// console.log(newstr);
+
+///........................BIGINT AND SYMBOL///////////////////////////////////............
+
+
+// // Online Javascript Editor for free
+// // Write, Edit and Run your Javascript code using JS Online Compiler
+
+// // BigInt;
+// // let num=123456789123456789123456789n;
+// // console.log(num);
+// // let newnum=num +1n;
+// // console.log(newnum);
+
+// // let BigInt="123456789123456789123456789";
+// // let newnum=num + BigInt(1);
+// //simple logic hai agar muje bada number ke sath add karna hoga suppose 1,2,or some else then i can used BigInt() inside number;;
+// //symbol//
+// // agar ham symbol me string lete hai aur comapre akrte hai o v triple equal to se too muje false de raha hai bul ke dono ka value mai same rakha hu;
+// // let sym="did";
+// // let sym1="did";
+// // console.log(Symbol(sym) === Symbol("sym1"));//false dega q ke yaha pe symbol ka used ho raha hai to dono ke doono alag hai//
+
+// console.log(typeof(Symbol));//function//
+// //agar hum ko true laana hai tab hum kya kare //too ham ko used karna hoga Symbol.for()//
+// let a="did";
+// let b="did";
+// let c= Symbol.for(a)=== Symbol.for(b)
+// console.log(c);//true
+
+// let num="100";
+// let num1="100";
+// let finalnum=Symbol(num) === Symbol(num1);
+// console.log(finalnum);//false
+
+///////////////revision now ///////////////
+let lnumber=12345678901235467891253447785968162638826388267n;
+let addtwo=lnumber+ 3n;
+console.log(addtwo);//12345678901235467891253447785968162638826388270n
+//symbol ka matlab hai agar mai symbole me compare karta hu assignment operators ko too muje false milta hai hai like->
+let Name="afroz";
+let Name1="afroz";
+let finalName=Symbol(Name)=== Symbol(Name1);;//false dega//
+console.log(finalName);///
+
+//agar mai same cheez ko number ke sath karta hu tab kya dega?
+// dekho->
+// let firstnum=123;
+// let secondnum=123;
+// let finalnum=Symbol(firstnum) === Symbol(secondnum);
+// console.log(finalnum);//false dega q ke har bar Symbol alag alag hota hai//
+//== equal to ke sath compare karu too?
+// let firstnum=123;
+// let secondnum=123;
+// let finalnum=Symbol(firstnum) == Symbol(secondnum);//
+// console.log(finalnum);//false dega
+
+
+//agar symbole me true lana hai === ish me v aur ==isme v then can i used//
+// let firstnum=123;
+// let secondnum=123;
+// let finalnum=Symbol.for(firstnum) === Symbol.for(secondnum);
+// console.log(finalnum);//true araha
+
+
+//////////////..............///////////////
+//symbol me object bhi use kar sakte hai but jab mai object ko symbol me use karta hu too kya hota hai dekho->
+// let obj={};
+// let sym=Symbol(obj);
+// console.log(sym);//Symbol([object Object]) dega q ke symbol me object use karne pe uska string me convert ho jata hai//
+
+
+///////////............../////////////
+// let student={};
+
+// let fname=Symbol("name");
+// // console.log(fname);
+// let lname=Symbol("name");
+// let age=Symbol("Age");
+// let rol=Symbol("Roll");
+
+
+// student[fname]="Afroz";
+// student[lname]="Alam";
+// student[age]="25";
+// student[rol]="10";
+// console.log(student[fname]);//Afroz
+// console.log(student[lname]);//Alam
+// console.log(student[age]);//"25"
+// console.log(student[rol])//"10"
+
+
+let obj={};
+
+let final=Symbol({});
+console.log(typeof(final))//function//
+console.log(final);
+console.log(typeof(obj))//function [object]
+
+let obj1={
+    name:"",
+    age:"20"
+}
+console.log(typeof(obj1));
+obj1.name="afroz";
+console.log(obj1);
+let array=["afroz","apl"];
+console.log(typeof(array));
+console.log(array);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
