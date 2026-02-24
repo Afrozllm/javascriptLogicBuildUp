@@ -106,3 +106,32 @@ console.log(obj[name]);
 console.log(obj[name1]);
 console.log(obj[age]);
 
+// Object///
+let obj={
+
+    str:"Mera name Afroz alam hai",
+    num:[1,2,3,4,5,6,7,8,9],
+    array:["Apple","Banana","Oranage"],
+    obj1:{
+        nums:[1,1,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20],
+        
+        
+    }
+    
+
+
+}
+// console.log(obj.str.includes("Afroz"))
+let final=obj.str.includes("Afroz");
+console.log(typeof(final));//true
+
+// if(final == true){
+//     console.log("Yes its avialable")//ye ayega
+// }else{
+//     console.log("Not Avialable!");
+// }
+if(final && false){
+    console.log("Yes its avialable")//ye ayega
+}else{
+    console.log("Not Avialable!");
+}
