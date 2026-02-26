@@ -135,3 +135,48 @@ if(final && false){
 }else{
     console.log("Not Avialable!");
 }
+
+////Objects/////////////
+// let Misterybox={
+//     Token: "BTC",
+//     price : '$68202',
+//     Chain:"BlockChain"
+
+
+// }
+// console.log(Misterybox);
+// // let mstbox=Misterybox.length;
+// // console.log(mstbox);//undefined
+// //hum nikal sakte hai//
+// //Object.key() ye hamee array me deeta hain//
+
+// let lgth= Object.keys(Misterybox);
+// console.log(lgth);
+// console.log(typeof(lgth));
+// let final=lgth.length;
+// console.log(final);
+// console.log(typeof(final));
+
+// // console.log(lgth && final);//
+
+// let lgth1= Object.values(Misterybox);
+// console.log(lgth1);
+// console.log(lgth1[0]);
+// console.log(lgth1.indexOf("BlockChain"));//2
+
+
+//object-key// logic//
+
+const furits = {
+    apple: 3,
+    mango: 7,
+    orange: 9
+
+}
+let fts=Object.keys(furits);//yaha se muje mila array key ,apple,mango,orange ,length 3
+if(fts.length === 0){
+    console.log("Empty items");
+    
+}else{
+    console.log("Total  fruits"  + Object.keys(fts).length  +  "itmes hain" )
+}
