@@ -262,6 +262,55 @@ console.log(obje.obj1.obj3["mentor"])
 
 
 
+////////////////Objects in javascript////////////////////
+//constructor function object bana sakte hain//
+
+function andsand(name,age,fun){
+    this.name = name;
+    this.age = age;
+    this.fun =fun;
+
+
+
+
+
+}
+const p1=  new andsand("abcd",23,"xyz");
+console.log(p1);
+
+console.log(Object.keys(p1));//key mila array me
+console.log(Object.values(p1))//valuse milega array me//
+console.log(Object.entries(p1));//dono milega
+console.log(Object.entries(p1)[2][1]);//dono milega
+
+
+
+
+
+//hum object class se v banaskte hain//
+
+// class firstobj {
+//     constructor(name,age,address){
+//         this.name = name;
+//         this.age = age;
+//         this.address =address
+//     }
+
+
+// }
+
+// // const p1= new firstobj("Haidar",23,"Kishanganj")
+// const p2= new firstobj("Faizan",22,"Hydrabad")
+// const p3= new firstobj("Faiyaz",43,"Mumbai")
+// const p4= new firstobj("Ayaz",32,"Delhi")
+// // console.log(p1)
+// console.log(p2);
+// console.log(p3)
+// console.log(p4);
+//object-key()
+
+// let abc= Object.key(firstobj);
+// console.log(abc);
 
 
 
