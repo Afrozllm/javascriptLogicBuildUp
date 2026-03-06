@@ -310,3 +310,87 @@ if(str && fnt && 0){
 
 
 
+// let mobile= {
+//     name: "Nokia",
+//     price: "$100"
+// }
+// console.log(mobile)
+// console.log(Object.keys(mobile))
+// console.log(Object.values(mobile))
+// console.log(Object.entries(mobile))
+
+function details(name,age){
+    this.name =name;
+    this.age = age;
+    
+}
+console.log(details);
+
+//////...........///////////////
+const person = {
+  name: "John",
+  age: 25
+}
+
+console.log(person.name)
+console.log(person.age)
+console.log(person["name"])
+console.log(person["age"]);
+
+// if(person["name"].startsWith("J")){
+//     console.log("Yes")
+// }else{
+//     console.log("No!");
+// }
+let product = {
+  price: 500,
+  brand: "Nike"
+};
+
+product["price"] = 800;
+
+console.log(product.price);
+
+
+let user = { name: "John", age: 25 };
+
+// user["address"]="Kishanganj" barcket
+user.address="Kishanganj";
+console.log(user.citys= "London");
+console.log(user["city"]= "London");
+
+
+console.log(user);
+
+//update 
+let car = { brand: "Toyota", year: 2020 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

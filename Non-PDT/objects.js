@@ -84,3 +84,90 @@ let student = {
 }
 console.log(student.funs());// Mera total marks : 70
 console.log(student.fun(2,8)); //10
+// ................../////////////////// // let Origional ={
+// //     name:"rahul",
+// //     address:{
+// //         city:"Delhi"
+// //     }
+// // }
+// // console.log(Origional);
+
+// // //agar mai update  karu city too kya hoga //
+
+// // Origional.address="Mumbai";
+// // console.log(Origional);
+
+// let user= {
+//     name:"rahul",
+//     age:34,
+//     address:{
+//         city:"delhi",
+//         state:{
+//             wb:"west bengal"
+//         }
+//     }
+
+// }
+
+// // console.log(user);
+// let user1= user;
+// // console.log(user1);
+// user1["name"] = "Afroz";
+// user1["age"]= 43
+// user1.address["city"] = "Hydrabad";
+// console.log(user)
+// console.log(user1);
+
+
+
+
+// // user.name= "Afroz"
+// // console.log(user)
+// // console.log(user["age"] = 45);
+// // let obj= {
+// //     name:"google",
+// //     addressss:{
+// //         citys:"Mumbai"
+// //     }
+// // }
+// // obj["name"] = "chrom"
+// // // console.log(obj);
+// // obj.addressss["citys"]= "Delhi"
+// // console.log(obj);
+
+function abc(){
+    console.log("I am refrence value")
+}
+
+abc() = c;
+console.log(c);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
